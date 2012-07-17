@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, monitor,
+ [{description, "monitor app"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {mod, {e2_application, [monitor_app]}},
+  {env, []},
+  {applications, [kernel, stdlib, sasl, inets, ssl]}]}.
